@@ -22,13 +22,13 @@
 
     <groupId>org.glassfish.jersey.core</groupId>
     <artifactId>jersey-tck</artifactId>
-    <version>3.1.0</version>
+    <version>3.1.0-jbossorg-1</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>jakarta.ws.rs</groupId>
         <artifactId>all</artifactId>
-        <version>3.1.0</version>
+        <version>3.1.0-jbossorg-1</version>
     </parent>
 
     <name>Jakarta RESTful WS Compliance</name>
@@ -37,12 +37,12 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <jersey.version>3.1.0-M3</jersey.version>
+        <jersey.version>3.1.0-jbossorg-1-M3</jersey.version>
         <glassfish.container.version>6.2.3</glassfish.container.version>
         <glassfish.home>${project.build.directory}/glassfish6</glassfish.home>
         <jakarta.platform.version>9.1.0</jakarta.platform.version>
         <junit.jupiter.version>5.7.2</junit.jupiter.version>
-        <jakarta.rest.version>3.1.0</jakarta.rest.version>
+        <jakarta.rest.version>3.1.0-jbossorg-1</jakarta.rest.version>
         <tck.artifactId>jakarta-restful-ws-tck</tck.artifactId>
     </properties>
 

@@ -27,7 +27,7 @@
     <groupId>org.glassfish</groupId>
     <artifactId>tck_jaxrs</artifactId>
     <packaging>pom</packaging>
-    <version>3.1.0</version>
+    <version>3.1.0-jbossorg-1</version>
     <name>Eclipse Foundation Technology Compatibility Kit User's Guide for Jakarta RESTful Web Services for Jakarta EE, Release 3.1</name>
 
     <properties>
@@ -196,7 +196,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-clean-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.1.0-jbossorg-1</version>
                 </plugin>
                 <plugin>
                     <groupId>org.glassfish.doc</groupId>
@@ -216,7 +216,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-scm-publish-plugin</artifactId>
-                    <version>3.1.0</version>
+                    <version>3.1.0-jbossorg-1</version>
                 </plugin>
                 <plugin>
                     <groupId>org.jbake</groupId>
